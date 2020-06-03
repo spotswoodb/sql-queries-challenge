@@ -13,5 +13,5 @@ After creating the tables, add some of the previously created data:
 sqlite3 alien.db < 02_insert_aliens.sql
 ```
 
-Use the `03_solution.sql` file to record your answers to each query challenge listed in the challenges.rb file. 
+Use the `03_solution.sql` file to record your answers to each query challenge listed in the challenge.md file. 
 
