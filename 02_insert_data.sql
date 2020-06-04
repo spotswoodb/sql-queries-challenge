@@ -10,14 +10,14 @@ INSERT INTO spaceships (name, speed, description, planet_id) VALUES ("Millennium
 INSERT INTO spaceships (name, speed, description, planet_id) VALUES ("Parallax", 250, "a mysterious blob", 3);
 
 
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Dalek", "blue", 200, false, 1);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Phineas", "green", 123, false, 2);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Rudo", "red", 48, false, 1);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Dornak", "gray", 350, true, 1);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Ferb", "blue", 150, true, 2);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Lakin", "purple", 80, false, 6);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Chewbacca", "brown", 35, false, 5);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Klingon", "silver", 150, true, 3);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Spinka", "purple", 26, true, 4);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Gutmann", "blue", 306, true, 2);
-INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Keebler", "green", 3, false, 1);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Dalek", "blue", 200, 0, 1);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Phineas", "green", 123, 0, 2);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Rudo", "red", 48, 0, 1);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Dornak", "gray", 350, 1, 1);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Ferb", "blue", 150, 1, 2);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Lakin", "purple", 80, 0, 6);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Chewbacca", "brown", 35, 0, 5);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Klingon", "silver", 150, 1, 3);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Spinka", "purple", 26, 1, 4);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Gutmann", "blue", 306, 1, 2);
+INSERT INTO aliens (name, color, age, dangerous, spaceship_id) VALUES ("Keebler", "green", 3, 0, 1);
