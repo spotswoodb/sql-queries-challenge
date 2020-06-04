@@ -47,14 +47,23 @@ You are in charge of adding more information! Try using the Faker Gem in IRB to 
 
 Once you have gathered your data, now you need to teach us non-techies how to access your work. I need to be able to:
 
-- Get a list of all aliens and their associated spaceships
-- Get a list of all aliens and their associated planets
-- Get a list of all aliens aboard a particular spaceship
-- Get a list of all aliens associated with one planet
-- Get a count of all spaceships from a particular planet
-- Get a count of all aliens aboard a particular spaceship
-- Get a count of all aliens from a particular planet
-- Get a count of all spaceships from a planet and the total number of aliens from that planet
-- Order the planets from most number of aliens to least
+- return the names and colors of all the aliens that are 'blue'
+- return the names and ages of all aliens over the age of 100
+- return the names of the dangerous aliens
+- return all of the info about the fastest spaceship
+- return a list of the aliens aboard the fastest spaceship
+- return a list of all aliens and the spaceship they belong to
+- get a list of all aliens and the planets they belong to 
+- get a list of all aliens aboard a the spaceship named 'Beebop'  
+- get a list of all aliens from the planet named 'Gliese'
+- return each planet's name and how many spaceships are from each planet
+- return each spaceships's name and how many aliens are aboard each spaceship    
+- return each planet's name and how many aliens are from each planet  
+- order the planets from most number of aliens to least number of aliens
+- return the names of spaceships that have blue aliens aboard
+- return a count of all spaceships from a planet and the total number of aliens from that planet
+- order the planets based on how many aliens are from that planet
+- MOST DIFFICULT: order the planets based on how many aliens over the age of 100 are from that planet
+
 
 Deliver your report by the end of the study group!
