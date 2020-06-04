@@ -5,7 +5,7 @@ def blue_aliens
    # return the names and colors of all the aliens that are 'blue'
 end
 
-def old aliens
+def old_aliens
    # return the names and ages of all aliens over the age of 100
 end
 
