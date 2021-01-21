@@ -51,7 +51,13 @@ end
 
 def aliens_from_gliese
    # Get a list of all aliens from the planet named 'Gliese'
-   "SELECT aliens.name FROM "
+   "SELECT aliens.name 
+   FROM aliens 
+   JOIN spaceships 
+   ON spaceships.id = aliens.spaceships_id 
+   JOIN planets 
+   ON planets.id = spaceships.planets_id
+   WHERE planets.name = 'Gliese'"
 end
 
 def spaceship_count_for_each_planet
