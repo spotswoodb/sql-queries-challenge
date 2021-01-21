@@ -3,44 +3,55 @@
 
 def blue_aliens
    # return the names and colors of all the aliens that are 'blue'
+   "SELECT name, color FROM aliens WHERE color = 'blue'"
 end
 
 def old_aliens
    # return the names and ages of all aliens over the age of 100
+   "SELECT name, age FROM aliens WHERE age > 100"
 end
 
 def dangerous_aliens
    # return the names of the dangerous aliens
+   "SELECT name FROM aliens WHERE dangerous = true"
 end
 
 
 def fastest_spaceship
  # return all of the info about the fastest spaceship
+ "SELECT * FROM spaceships ORDER BY speed DESC LIMIT 1"
 end
 
 def aliens_aboard_fastest_spaceship
   #return a list of the aliens aboard the fastest spaceship
+  "SELECT aliens.name FROM aliens JOIN spaceships ON spaceships.id = aliens.spaceship_id WHERE spaceships.speed = (SELECT MAX(spaceships.speed) FROM spaceships)"
 end
 
 
 def aliens_and_spaceships
   # Return a list of all aliens and the spaceship they belong to
-
+   "SELECT aliens.name, spaceships.name FROM aliens JOIN spaceships ON spaceships.id = aliens.spaceship_id"
 end
 
 
 def aliens_and_planets
  # Get a list of all aliens and the planets they belong to 
+   "SELECT aliens.name, planets.name FROM aliens
+   JOIN spaceships ON aliens.spaceship_id = spaceships.id 
+   JOIN planets ON planets.id = spaceships.planet_id"
 end
 
 
 def aliens_aboard_beebop
-   # Get a list of all aliens aboard a the spaceship named 'Beebop'  
+   # Get a list of all aliens aboard a the spaceship named 'Beebop'
+   "SELECT aliens.name FROM aliens JOIN spaceships ON aliens.spaceship_id = spaceships.id
+   WHERE spaceships.name = 'Beebop'"  
 end
 
 
 def aliens_from_gliese
    # Get a list of all aliens from the planet named 'Gliese'
+   "SELECT aliens.name FROM "
 end
 
 def spaceship_count_for_each_planet
